@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Casehub</string>
+    <string name="password">Введите ваш пароль</string>
+    <string name="Login">Войти</string>
+    <string name="Email">Введите вашу почту</string>
+    <string name="welcome">С Возвращением!</string>
+    <string name="welcomeDown">войдите, чтобы получить доступ к учетной записи</string>
+    <string name="skip">Пропустить</string>
+    <string name="losePass">Забыли пароль?</string>
+    <string name="noAcc">Нет аккаунта?</string>
+    <string name="registrationNow">Зарегистрируйтесь</string>
 </resources>
