@@ -9,4 +9,9 @@
     <string name="losePass">Забыли пароль?</string>
     <string name="noAcc">Нет аккаунта?</string>
     <string name="registrationNow">Зарегистрируйтесь</string>
+    <string name="main_text">Главная</string>
+    <string name="work_shop_text">Мастерская</string>
+    <string name="profile_text">Профиль</string>
+    <string name="text_work_shop_one">Список кейсов пуст</string>
+    <string name="text_work_shop_two">Похоже вы еще не создали ни одного \n кейса. Самое время это исправить!</string>
 </resources>
