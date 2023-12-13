@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Casehub</string>
-    <string name="button_no_register">Пропустить &#160;➔</string>
+    <string name="button_no_register_text">Пропустить &#160;</string>
     <string name="register_text">Зарегистрируйтесь</string>
     <string name="child_register_text">и присоединитесь к сообществу Casehub</string>
-    <string name="fio_input">Введите ФИО</string>
-    <string name="email_input">Введите почту</string>
-    <string name="password_input">Введите пароль</string>
-    <string name="password_again_input">Повторите пароль</string>
+    <string name="fio_input_text">Введите ФИО</string>
+    <string name="email_input_text">Введите почту</string>
+    <string name="password_input_text">Введите пароль</string>
+    <string name="password_again_input_text">Повторите пароль</string>
     <string name="button_text_register">Зарегистрироваться</string>
     <string name="register_text_end">Уже есть аккаунт?</string>
-    <string name="next_page_log">Войти</string>
+    <string name="next_page_log_text">Войти</string>
 </resources>
