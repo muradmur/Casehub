@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Casehub</string>
+    <string name="password">Введите ваш пароль</string>
+    <string name="Login">Войти</string>
+    <string name="Email">Введите вашу почту</string>
+    <string name="welcome_text">С Возвращением!</string>
+    <string name="welcomeDown_text">войдите, чтобы получить доступ к учетной записи</string>
+    <string name="skip_text">Пропустить</string>
+    <string name="losePass">Забыли пароль?</string>
+    <string name="no_acc_text">Нет аккаунта?</string>
+    <string name="registrationNow">Зарегистрируйтесь</string>
+    <string name="main_text">Главная</string>
+    <string name="work_shop_text">Мастерская</string>
+    <string name="profile_text">Профиль</string>
+    <string name="text_work_shop_title">Список кейсов пуст</string>
+    <string name="text_work_shop_text">Похоже вы еще не создали ни одного \n кейса. Самое время это исправить!</string>
 </resources>
