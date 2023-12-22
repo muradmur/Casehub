@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_margin="16dp"
+    android:background="@drawable/case_card_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/name_case"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/bg_favorites_case_card"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Название кейса большое и привлекательное" />
+
+    <TextView
+        android:id="@+id/description_case"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_case"
+        tools:text="Короткое, но очень полезное описание кейса, которое необходимо уместить в 3 строки и не больше, потому что мы ценим время наше ..." />
+
+
+    <ImageView
+        android:id="@+id/implementation_platform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/icons_card_case_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_implementation_platform_card_case"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/complexity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/icons_card_case_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_complexity_card_case"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/implementation_platform" />
+
+    <ImageView
+        android:id="@+id/case_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/icons_card_case_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_case_card_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/complexity" />
+
+    <ImageView
+        android:id="@+id/logo_card_case"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="22dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_logo_card_case"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/design_case_card"
+        app:layout_constraintStart_toEndOf="@id/case_type"
+        app:layout_constraintTop_toBottomOf="@id/description_case" />
+
+    <ImageView
+        android:id="@+id/analytics_case_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icons_card_case_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_availability_of_analytics"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/code_case_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/icons_card_case_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_availability_of_code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/analytics_case_card" />
+
+    <ImageView
+        android:id="@+id/design_case_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/icons_card_case_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_availabilit_of_design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/code_case_card" />
+
+    <ImageView
+        android:id="@+id/bg_favorites_case_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:src="@drawable/ic_bg_favorites"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/favorites_case_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:src="@drawable/ic_favorites"
+        app:layout_constraintBottom_toBottomOf="@id/bg_favorites_case_card"
+        app:layout_constraintEnd_toEndOf="@id/bg_favorites_case_card"
+        app:layout_constraintStart_toStartOf="@id/bg_favorites_case_card"
+        app:layout_constraintTop_toTopOf="@id/bg_favorites_case_card" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
