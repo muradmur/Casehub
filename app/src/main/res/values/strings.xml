@@ -1,4 +1,5 @@
 <resources>
+    <!-- Основной текст -->
     <string name="app_name">Casehub</string>
     <string name="password">Введите ваш пароль</string>
     <string name="login">Войти</string>
@@ -12,8 +13,13 @@
     <string name="main_text">Главная</string>
     <string name="work_shop_text">Мастерская</string>
     <string name="profile_text">Профиль</string>
+
+
+    <!-- Окно кейсов -->
     <string name="work_shop_error_title">Список кейсов пуст</string>
     <string name="work_shop_error_text">Похоже вы еще не создали ни одного \n кейса. Самое время это исправить!</string>
+
+    <!-- Регистрация -->
     <string name="button_no_register_text">Пропустить</string>
     <string name="register_text">Зарегистрируйтесь</string>
     <string name="child_register_text">и присоединитесь к сообществу Casehub</string>
@@ -24,4 +30,12 @@
     <string name="button_text_register">Зарегистрироваться</string>
     <string name="register_text_end">Уже есть аккаунт? Войти</string>
     <string name="next_page_log_text">Войти</string>
+
+    <!-- Материалы текстов главной страницы кейсов -->
+    <string name="tab_item_text_one">Всё</string>
+    <string name="tab_item_text_two">Избранные</string>
+
+
+
+
 </resources>
