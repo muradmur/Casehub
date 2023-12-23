@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:layout_margin="8dp"
     android:background="@drawable/case_card_bg"
     android:backgroundTint="@color/white"
     android:padding="16dp">

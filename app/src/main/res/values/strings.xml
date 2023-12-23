@@ -32,8 +32,8 @@
     <string name="next_page_log_text">Войти</string>
 
     <!-- Материалы текстов главной страницы кейсов -->
-    <string name="tab_item_text_one">Всё</string>
-    <string name="tab_item_text_two">Избранные</string>
+    <string name="home_fragment_tab_all">Всё</string>
+    <string name="home_fragment_tab_favorite">Избранные</string>
 
 
 

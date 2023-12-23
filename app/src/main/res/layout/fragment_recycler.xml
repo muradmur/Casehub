@@ -17,6 +17,6 @@
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="1"
         tools:itemCount="3"
-        tools:listitem="@layout/case_card_layout"/>
+        tools:listitem="@layout/case_item"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
