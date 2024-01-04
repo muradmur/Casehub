@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819483499808",
+    "project_id": "casehub-16ccf",
+    "storage_bucket": "casehub-16ccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819483499808:android:1e203b9cc93c5bb9018b45",
+        "android_client_info": {
+          "package_name": "com.example.casehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjaUYHYO8FMAGJv5zldVYNnULG52fpGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
