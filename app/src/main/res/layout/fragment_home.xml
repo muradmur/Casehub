@@ -35,9 +35,11 @@
         android:id="@+id/search_vew"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/TextAppearance.Material3.SearchView"
         android:layout_marginHorizontal="@dimen/module_3"
         android:layout_marginTop="@dimen/module_4"
-        app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+        app:layout_constraintTop_toBottomOf="@id/tabLayout"
+        android:hint="Hint"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_recyclerView"
